@@ -12,6 +12,6 @@ class Commodity extends Model
 
     public function Brand() 
     {
-        return $this->belongsTo('Brand', 'BrandId', 'BrandId');
+        return $this->belongsTo('App\Model\Brand', 'BrandId', 'BrandId');
     }
 }

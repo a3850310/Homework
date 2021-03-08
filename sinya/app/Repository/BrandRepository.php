@@ -16,4 +16,9 @@ class BrandRepository
     {
         $this->Brand = $Brand;
     }
+
+    public function getAllBrand()
+    {
+        return $this->Brand->all();
+    }
 }

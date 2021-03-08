@@ -12,6 +12,6 @@ class Brand extends Model
 
     public function Commodity() 
     {
-        return $this->hasMany('Commodity', 'BrandId', 'BrandId');
+        return $this->hasMany('App\Model\Commodity', 'BrandId', 'BrandId');
     }
 }
